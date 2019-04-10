@@ -13,7 +13,7 @@ public class HibernateUtil {
 	public static SessionFactory getSessionFactory() {
 		if (sessionFactory == null) {
 			try {
-				// Create registry
+				// Create registry teste
 				registry = new StandardServiceRegistryBuilder().configure().build();
 
 				// Create MetadataSources
